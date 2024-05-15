@@ -13,7 +13,6 @@ class EnvVariables {
     } else {
       await dotenv.load(fileName: '.env.prod');
     }
-    print(dotenv.get('ENV_TYPE'));
   }
 
   String getEnvType() {
