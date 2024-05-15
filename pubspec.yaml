@@ -15,11 +15,11 @@ dependencies:
   flutter_offline: ^3.0.1
 
 dev_dependencies:
-  flutter_lints: ^3.0.0
   flutter_launcher_icons: ^0.13.1
-  very_good_analysis: ^5.1.0
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
+  very_good_analysis: ^5.1.0
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -29,8 +29,6 @@ flutter_launcher_icons:
   macos:
     generate: true
     image_path: "assets/images/app_icon.png"
-
- 
 
 flutter:
   uses-material-design: true
@@ -47,8 +45,8 @@ flutter:
         - asset: assets/fonts/arabic/cairo/Cairo-Medium.ttf
           weight: 500
         - asset: assets/fonts/arabic/cairo/Cairo-Regular.ttf
-          weight: 400 
-    # English Font 
+          weight: 400
+    # English Font
     - family: Poppins
       fonts:
         - asset: assets/fonts/english/poppins/Poppins-Bold.ttf
@@ -56,4 +54,4 @@ flutter:
         - asset: assets/fonts/english/poppins/Poppins-Medium.ttf
           weight: 500
         - asset: assets/fonts/english/poppins/Poppins-Regular.ttf
-          weight: 400 
+          weight: 400
