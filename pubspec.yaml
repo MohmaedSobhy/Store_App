@@ -7,12 +7,15 @@ environment:
   sdk: '>=3.3.4 <4.0.0'
 
 dependencies:
+  bloc: ^8.1.4
   cupertino_icons: ^1.0.6
   firebase_core: ^2.31.0
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.5
   flutter_dotenv: ^5.1.0
   flutter_offline: ^3.0.1
+  shared_preferences: ^2.2.3
 
 dev_dependencies:
   flutter_launcher_icons: ^0.13.1
